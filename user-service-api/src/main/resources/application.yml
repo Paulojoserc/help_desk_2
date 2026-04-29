@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: 'user-service-api'
+  data:
+    mongodb:
+      uri: "mongodb+srv://${MONGODB_USUARIO}:${MONGODB_SECRET}@${CLUSTER_URL}.qtwaews.mongodb.net/helpdeskdb?appName=${OPCOES}"
+      auto-index-creation: true
+

@@ -6,25 +6,25 @@ repositories {
 
 dependencies {
     // Biblioteca de código comum
-    implementation 'br.com.codecastle:hd-commons-lib:1.0.0'
+   // implementation 'br.com.codecastle:hd-commons-lib:1.0.0'
 
     //Starter para desenvolvimento de aplicativos web com Spring Boot
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
     //Starter para configuração do Spring Cloud Config
-    implementation 'org.springframework.cloud:spring-cloud-starter-config'
+    //implementation 'org.springframework.cloud:spring-cloud-starter-config'
 
     //Starter para configuração do Spring Cloud
-    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+    //implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 
     //Starter paa integração com o Eureka Discovery Client
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    //implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 
     // Starter para acesso a dados com o MongoDB
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 
     // Starter para validação de dados
-    implementation 'org.springframework..boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
 
     //Starter para geração de documentação OpenAPI com Springdoc
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.4'
