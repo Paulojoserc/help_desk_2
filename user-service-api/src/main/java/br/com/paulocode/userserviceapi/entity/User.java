@@ -21,6 +21,6 @@ public class User {
     private String username;
     private String email;
     private String password;
-    private Set<ProfileEnum> profile;
+    private Set<ProfileEnum> profiles;
 
 }
